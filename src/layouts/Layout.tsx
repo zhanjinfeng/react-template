@@ -5,10 +5,5 @@ type LayoutProps = {
 };
 
 export default function Layout(props: LayoutProps) {
-    return (
-        <div className="p-8">
-            <div className=" text-2xl mb-4 font-sold">Layout</div>
-            <div>{props.children}</div>
-        </div>
-    );
+    return <div className="p-8">{props.children}</div>;
 }
